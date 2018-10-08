@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/darkorange</item>
+        <item name="colorPrimaryDark">#00ccff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Tooltip2">
+        <item name="android:text">qwqwrqwfqwfqwfqwfqwf</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+        <item name="backgroundColor">@color/darkorange</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="Tooltip">
+        <item name="android:text">TESSSSSS</item>
+        <item name="android:textSize">16sp</item>
+        <item name="backgroundColor">@color/darkorange</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+</resources>

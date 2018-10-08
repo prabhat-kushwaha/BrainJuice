@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prabhatkushwaha.ss">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mainWindow"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profile1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".exit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quiz_main_window"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Quiz_Result"
+            android:theme="@style/AppTheme.NoActionBar" ></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Brain Juice</string>
+    <string name="ragister">Ragister</string>
+    <string name="enterusername">EnterUserName</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="submit">submit</string>
+    <string name="profile">profile</string>
+    <string name="startquiz">startquiz</string>
+    <string name="feedback">feedback</string>
+    <string name="setting">setting</string>
+    <string name="Exit" />
+    <string name="exit">Exit</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">register</string>
+    <string name="prabhat">prabhat</string>
+
+</resources>
